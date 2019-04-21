@@ -19,6 +19,7 @@
  */
 
 #include "internal.h"
+#include <sys/sysmacros.h>
 
 typedef void (^dispatch_fd_entry_init_callback_t)(dispatch_fd_entry_t fd_entry);
 
